@@ -2,11 +2,11 @@ employees
 -
 emp_no int PK
 emp_title_id varchar(10) FK >- titles.title_id
-birth_date datetime
+birth_date date
 first_name varchar(30)
 last_name varchar(30)
 sex varchar(10)
-hire_date datetime
+hire_date date
 
 departments
 -
